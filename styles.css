@@ -1,0 +1,200 @@
+/* styles.css */
+
+body {
+    font-family: candara, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FDFC01;
+}
+
+.container, .containhead {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.containhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.headtext, .vidlogo{
+     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+div span, h3, h2{
+    text-align: center;
+    display: block;
+    line-height: 30px;
+}
+
+.abtcto{
+    display: block;
+    width: 50%;
+    margin-left: 20vw;
+    margin-top: -20px;
+    padding: 30px;
+    background: #152D46;
+    z-index: -1;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background: #152D46;
+    color: #FDFC01;
+    padding: 0px 0px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #FDFC01;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 22px;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    color: #152D46;
+    background: #FDFC01;
+}
+
+section {
+    padding: 40px 0;
+}
+
+#home {
+    background: #152D46;
+}
+
+#about {
+    
+    min-height: 400px;
+    margin: 0;
+}
+
+#abtvid{
+   
+    padding: 50px;
+    background: rgb(21, 45, 70, 0.5);
+}
+
+#abttext{
+    
+}
+
+.videobkg{
+
+    width: 100vw;
+   height: 100vh;
+   object-fit: cover;
+   position: fixed;
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   z-index: -1;
+}
+
+#contact {
+    background: #152D46;
+}
+
+h2 {
+    margin-top: 0;
+    padding: 20px;
+    font-weight: normal;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.frontend, .backend{
+    border: 1px solid #FDFC01;
+    padding: 30px;
+     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     background: #152D46;
+     cursor: pointer;
+}
+
+.frontend:hover, .backend:hover{
+    background: #FDFC01;
+    color: #152D46;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #FDFC01;
+    border-radius: 5px;
+    background: #152D46;
+    color: #FDFC01;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    background: #FDFC01;
+    color: #152D46;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 20px; 
+    font-weight: bold;
+    border: 3px solid #FDFC01;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background: #152D46;
+    color: white;
+}
+
+footer {
+    background: #152D46;
+    color: #FDFC01;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
